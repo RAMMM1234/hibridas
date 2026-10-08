@@ -44,7 +44,7 @@ function App() {
 
     // Asigna el texto a mostrar dependiendo de la condición booleana
     const mensajeStatus = estaAprobado 
-      ? `🟢 APROBADO (${nota}/100) - ¡Excelente trabajo, aprobaste!` 
+      ? `🟢 APROBADO (${nota}/100) - ¡Excelente trabajo, Aprobaste!` 
       : `🔴 REPROBADO (${nota}/100) - Necesita regularización.`;
 
     // =========================================================================
