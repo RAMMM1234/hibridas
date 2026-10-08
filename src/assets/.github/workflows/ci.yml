@@ -2,16 +2,16 @@ name: Integracion Continua - React Vite
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "principal" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "principal" ]
 
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Descargar código fuente
+      - name: Descargar codigo fuente
         uses: actions/checkout@v4
 
       - name: Instalar Node.js
